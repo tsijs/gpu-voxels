@@ -102,7 +102,6 @@ add_definitions(-DIC_PERFORMANCE_MONITOR)
 
 ICMAKER_ADD_HEADERS(
   ArgumentHandling.h
-  Kinect.h
   OctomapProvider.h
   Provider.h
   SensorData.h
@@ -112,7 +111,6 @@ ICMAKER_ADD_HEADERS(
 
 ICMAKER_ADD_SOURCES(
   ArgumentHandling.cpp
-  Kinect.cpp
   Main_NTreeProvider.cpp
   OctomapProvider.cpp
   Provider.cpp
@@ -167,7 +165,6 @@ add_definitions(-DIC_PERFORMANCE_MONITOR)
 
 ICMAKER_ADD_HEADERS(
   ArgumentHandling.h
-  Kinect.h
   OctomapProvider.h
   Provider.h
   SensorData.h
@@ -177,7 +174,6 @@ ICMAKER_ADD_HEADERS(
 
 ICMAKER_ADD_SOURCES(
   ArgumentHandling.cpp
-  Kinect.cpp
   Main_Bench.cpp
   OctomapProvider.cpp
   Provider.cpp

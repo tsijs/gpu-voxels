@@ -116,4 +116,3 @@ ICMAKER_EXTERNAL_DEPENDENCIES(
 ICMAKER_BUILD_LIBRARY()
 ICMAKER_INSTALL_HEADERS(gpu_voxels/octree)
 # Include files here that are needed when the package is installed.
-ADD_SUBDIRECTORY(test)
